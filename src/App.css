@@ -1,38 +1,257 @@
-.App {
-  text-align: center;
+.brand-logo img {
+  width: 200px;
+  height: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.login-signup-btn {
+  background-color: #04AA6D;
+  border-radius: 25px;
+  color: #fff;
+  font-weight: 600;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.signup-btn {
+  padding: 10px 20px !important;
+  border-radius: 25px;
+  color: #fff !important;
+  background: green;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.login-btn {
+  border-radius: 0px 25px 25px 0px !important;
+  padding: 10px 15px !important;
+  color: #fff !important;
+}
+
+/* 
+.login-btn:hover {
+  border: 1px solid green;
+} */
+
+
+/* banner */
+.hero-section {
+  background-color: #031926;
+  color: #fff;
+}
+
+.hero--homepage {
+  background-position: left 80px;
+  background-repeat: no-repeat;
+  background-image: url(https://www.tutorialspoint.com/static/img/homepage/heroBg.png);
+}
+
+.hero-section h1 {
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.hero-section h1 span {
+  color: green;
+}
+
+.hero-section img {
+  float: right;
+}
+
+
+.new-search-input-wrapper input {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid #282A35;
+  border-radius: 25px;
+  float: left;
+  width: 80%;
+  padding-left: 25px;
+  background: white;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: 0;
+  border-right: 1px solid green;
+  outline: 0;
+}
+
+.new-search-input-wrapper button {
+  border-radius: 25px;
+  float: left;
+  width: 10%;
+  padding: 10px;
+  background: green;
   color: white;
+  font-size: 17px;
+  border: 1px solid #282A35;
+  border-left: none;
+  cursor: pointer;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
-.App-link {
-  color: #61dafb;
+/* Programming_section */
+.Programming_section {
+  margin: 50px 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Programming_section_inner {
+  border-radius: 10px;
+  padding: 50px 20px;
+}
+
+
+.Programming_section h1 {
+  margin-bottom: 30px;
+  font-size: 50px;
+
+}
+
+.Programming_section h1 span {
+  color: rgb(19, 19, 212);
+}
+
+.Programming_section_bg {
+  background: darkslateblue;
+}
+
+.Programming_section_bg2 {
+  background: #607D8B;
+}
+
+.Programming_section_bg3 {
+  background: #F44336;
+}
+
+.Programming_section_bg4 {
+  background: #E91E63;
+}
+
+.Programming_section_bg5 {
+  background: #9c27b0;
+}
+
+.Programming_section_bg6 {
+  background: #673AB7;
+}
+
+.Programming_section_bg7 {
+  background: #3f51b5;
+}
+
+.Programming_section_bg8 {
+  background: #2196f3;
+}
+
+
+
+.Programming_section_inner {
+  padding: 30px;
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+
+}
+
+.Programming_section_inner h2 {
+  font-size: 40px;
+  color: #fff;
+}
+
+.Programming_section_inner h3 {
+  font-size: 20px;
+  color: #fff;
+}
+
+.Programming_section_inner button {
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 10px 30px;
+  margin-top: 20px;
+  color: #000;
+  outline: 0;
+  border: 2px solid #fff;
+}
+
+.Programming_section_inner button:hover {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+/*  */
+.Programming_section2 h1 {
+  margin-bottom: 30px;
+  font-size: 50px;
+}
+
+.Programming_section2 h1 span {
+  color: darkslateblue;
+}
+
+.section-shadow {
+  margin-block: 2rem;
+  padding: 1rem;
+  border-radius: 2rem;
+  border: 2px solid darkslateblue;
+  box-shadow: -12px 12px darkslateblue;
+  background-color: #eeeeee
+}
+
+.section-shadow h2 {
+  margin-bottom: 20px;
+  font-size: 35px;
+  color: darkslateblue;
+}
+
+.Programming_section2_inner {
+  cursor: pointer;
+  background-color: #000;
+  border: 0;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: .75rem;
+  padding: .75rem;
+  text-align: start;
+  font-size: .9rem;
+  transition: .25s ease;
+}
+
+.Programming_section2_inner h3 {
+  font-size: 18px;
+  font-weight: 400;
+
+}
+
+.Programming_section2_inner h4 {
+  font-size: 25px;
+}
+
+
+
+.section-shadow2 {
+  margin-block: 2rem;
+  padding: 1rem;
+  margin-top: 70px;
+  border-radius: 2rem;
+  border: 2px solid rgb(142, 115, 223);
+  box-shadow: -12px 12px rgb(142, 115, 223);
+  background-color: #eeeeee
+}
+
+.section-shadow2 h2 {
+  margin-bottom: 20px;
+  font-size: 35px;
+  color: rgb(34, 8, 201);
+}
+
+
+.section-shadow2 .Programming_section2_inner {
+  cursor: pointer;
+  background-color: #2564da;
+  border: 0;
+  color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: .75rem;
+  padding: .75rem;
+  text-align: start;
+  font-size: .9rem;
+  transition: .25s ease;
 }
